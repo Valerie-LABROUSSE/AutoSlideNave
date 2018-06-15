@@ -1,0 +1,6 @@
+<img src="/assets/images/imageReal.jpg" alt="">
+<ul>
+  <li *ngFor="let real of reals">
+    <a (click)="showRealDetail(real, $event)" href="#"> {{real.name}}</a>
+  </li>
+</ul>
